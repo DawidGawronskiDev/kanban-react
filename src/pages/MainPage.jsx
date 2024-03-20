@@ -6,7 +6,7 @@ const MainPage = () => {
   return (
     <main className="flex flex-col h-screen">
       <Header />
-      <div className="flex-1">
+      <div className="flex-1 flex">
         <Aside />
         <Outlet />
       </div>

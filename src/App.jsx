@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 import useFetch from "react-fetch-hook";
 import AppContext from "./AppContext";
